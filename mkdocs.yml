@@ -1,0 +1,81 @@
+# Information du site
+site_name: "IT4W - Base de connaissances"
+site_description: "Base de connaissance de IT for Work"
+site_author: "Gilles LANTERI"
+site_url: "https://gilfr.github.io/docs/"
+
+# Dépôt de code source
+repo_name: "github"
+repo_url: "https://github.com/gilfr/it4w_docs/"
+# edit_uri: "src/develop/docs/"
+
+# Copyright
+copyright: "Copyright &copy; 2019 Gilles Lantéri"
+
+# Configuration
+theme:
+  name: "material"
+  language: "fr"
+  dark: "true"
+  favicon: "images/logo.svg"
+  logo: "images/logo-white.svg"
+  # logo:
+  #   icon: "apps"
+  palette:
+    primary: "deep orange"
+    accent: "indigo"
+
+# Personnalisation
+extra:
+  search:
+    language: "en"
+  social:
+    - type: "github"
+      link: "https://github.com/gilfr"
+
+# Google Analytics
+google_analytics:
+  - "UA-XXXXXXXX-X"
+  - "auto"
+
+# Plugins
+plugins:
+  - search:
+      # separator: '[\s\-\.]+'
+      prebuild_index: true
+  - git-revision-date
+  - markdownmermaid
+
+# Fichiers techniques
+extra_css:
+  - "stylesheets/extra.css"
+extra_javascript:
+  - "javascripts/flowchart.js"
+  - https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - attr_list
+  - codehilite:
+      guess_lang: false
+  - footnotes
+  - meta
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.progressbar
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - toc:
+      permalink: true

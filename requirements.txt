@@ -1,0 +1,6 @@
+mkdocs
+mkdocs-material
+mkdocs-git-revision-date-plugin
+pymdown-extensions
+wkhtmltopdf
+mkdocs-plugin-mermaid
