@@ -168,7 +168,7 @@ class Program {
         Qui veut la paix prépare la guerre (proverbe romain)
 
 ??? danger "Boite masquée..."
-    :smile: Hello world !
+    Hello world !
 
 ## Liste de tâches
 
