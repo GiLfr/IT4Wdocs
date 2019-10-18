@@ -17,7 +17,7 @@ theme:
   name: "material"
   language: "fr"
   dark: "true"
-  favicon: "images/logo.svg"
+  favicon: "images/favicon/logo.svg"
   logo: "images/logo-white.svg"
   # logo:
   #   icon: "apps"
@@ -66,8 +66,7 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.critic
   - pymdownx.details
-  - pymdownx.emoji:
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.emoji.emojione
   - pymdownx.inlinehilite
   - pymdownx.magiclink
   - pymdownx.mark
