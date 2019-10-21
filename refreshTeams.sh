@@ -1,0 +1,6 @@
+# @echo off
+echo Récupération dernière version de MicrosoftTeams.min.js ...
+npm install --save @microsoft/teams-js
+
+echo Copie local dans ce projet ...
+cp ~/node_modules/@microsoft/teams-js/dist/MicrosoftTeams.min.js docs/javascripts

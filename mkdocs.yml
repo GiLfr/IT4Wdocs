@@ -1,12 +1,12 @@
 # Information du site
 site_name: "IT4W - Base de connaissances"
-site_description: "Base de connaissance de IT for Work"
+site_description: "Base de connaissances de IT for Work"
 site_author: "Gilles LANTERI"
-site_url: "https://gilfr.github.io/docs/"
+# site_url: "https://gilfr.github.io/docs/"
 
 # Dépôt de code source
 repo_name: "github"
-repo_url: "https://github.com/gilfr/it4w_docs/"
+repo_url: "https://github.com/gilfr/it4wdocs/"
 # edit_uri: "src/develop/docs/"
 
 # Copyright
@@ -50,6 +50,7 @@ plugins:
 extra_css:
   - "stylesheets/extra.css"
 extra_javascript:
+  - "javascripts/MicrosoftTeams.min.js"
   - "javascripts/flowchart.js"
   - https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js
 
