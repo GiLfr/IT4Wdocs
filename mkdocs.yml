@@ -28,20 +28,22 @@ theme:
 # Personnalisation
 extra:
   search:
-    language: "en"
+    language: "fr, en"
+    # tokenizer: '[\s\-\.]+'
   social:
     - type: "github"
       link: "https://github.com/gilfr"
 
 # Google Analytics
-google_analytics:
-  - "UA-XXXXXXXX-X"
-  - "auto"
+# google_analytics:
+#   - "UA-XXXXXXXX-X"
+#   - "auto"
 
 # Plugins
 plugins:
   - search:
-      # separator: '[\s\-\.]+'
+      lang: "en"
+      separator: '[\s\-\.]+'
       prebuild_index: true
   - git-revision-date
   - markdownmermaid
@@ -50,8 +52,6 @@ plugins:
 extra_css:
   - "stylesheets/extra.css"
 extra_javascript:
-  - "javascripts/MicrosoftTeams.min.js"
-  - "javascripts/addteams.js"
   - "javascripts/flowchart.js"
   - https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js
 
