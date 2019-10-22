@@ -51,6 +51,7 @@ extra_css:
   - "stylesheets/extra.css"
 extra_javascript:
   - "javascripts/MicrosoftTeams.min.js"
+  - "javascripts/addteams.js"
   - "javascripts/flowchart.js"
   - https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js
 
